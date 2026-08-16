@@ -1,0 +1,31 @@
+# Raw and prepared datasets (large)
+data_raw/
+external/
+my_data/
+
+# Training / validation / prediction outputs
+runs/
+detect_test/
+screenshots/
+
+# Model weights and exports
+*.pt
+*.onnx
+*.engine
+*.torchscript
+
+# Machine-specific dataset configs (absolute paths)
+configs/my_detect.local.yaml
+configs/my_detect.windows.yaml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
